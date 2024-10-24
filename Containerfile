@@ -20,5 +20,5 @@ RUN   ln -fs /bin/sh /usr/bin/sh && \
 
 RUN   git clone --recursive https://github.com/akinomyoga/ble.sh.git && \
       cd ble.sh && \
-      make install
+      make install INSDIR=/usr/share/blesh
 
