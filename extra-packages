@@ -2,5 +2,6 @@ chezmoi
 cosign
 delta
 direnv
+gh
 just
 python3
