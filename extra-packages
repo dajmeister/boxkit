@@ -2,6 +2,15 @@ chezmoi
 cosign
 delta
 direnv
+kcat
+gcc-11
 gh
+go
+golangci-lint
+go-task
 just
+jq
+postgresql-client
 python3
+tmux
+yq
