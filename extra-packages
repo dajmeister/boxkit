@@ -2,15 +2,15 @@ chezmoi
 cosign
 delta
 direnv
-kcat
+kafkacat
 gcc-11
 gh
 go
 golangci-lint
-go-task
 just
 jq
 postgresql-client
 python3
+task
 tmux
 yq
