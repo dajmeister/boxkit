@@ -22,3 +22,4 @@ RUN   git clone --recursive https://github.com/akinomyoga/ble.sh.git && \
       cd ble.sh && \
       make install INSDIR=/usr/share/blesh
 
+RUN   go install -tags 'godor' github.com/xo/usql@latest
