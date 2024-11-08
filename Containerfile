@@ -22,4 +22,5 @@ RUN   git clone --recursive https://github.com/akinomyoga/ble.sh.git && \
       cd ble.sh && \
       make install INSDIR=/usr/share/blesh
 
-RUN   GOBIN=/usr/bin go install -tags 'most godror' github.com/xo/usql@latest
+RUN   GOBIN=/usr/bin go install -tags 'most godror' github.com/xo/usql@latest && \
+      go clean -cache
