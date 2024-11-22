@@ -2,7 +2,6 @@ chezmoi
 cosign
 delta
 direnv
-kafkacat
 gcc-11
 gh
 go
@@ -14,4 +13,5 @@ postgresql-client
 python3
 task
 tmux
+xh
 yq
