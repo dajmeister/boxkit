@@ -8,6 +8,7 @@ go
 golangci-lint
 just
 jq
+kaf
 libaio
 postgresql-client
 python3
