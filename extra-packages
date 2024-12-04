@@ -13,6 +13,7 @@ libaio
 postgresql-client
 python3
 task
+topgrade
 tmux
 xh
 yq
