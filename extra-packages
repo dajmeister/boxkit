@@ -4,6 +4,7 @@ delta
 direnv
 gcc-11
 gh
+glab
 go
 golangci-lint
 just
