@@ -2,11 +2,13 @@ chezmoi
 cosign
 delta
 direnv
+file
 gcc-11
 gh
 glab
 go
 golangci-lint
+helm
 just
 jq
 kaf
