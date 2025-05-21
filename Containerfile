@@ -18,9 +18,8 @@ RUN   ln -fs /bin/sh /usr/bin/sh && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/rpm-ostree && \
       ln -fs /usr/bin/distrobox-host-exec /usr/local/bin/transactional-update
 
-RUN   git clone --recursive https://github.com/akinomyoga/ble.sh.git && \
-      cd ble.sh && \
-      make install INSDIR=/usr/share/blesh
+RUN   wget -O - https://github.com/akinomyoga/ble.sh/releases/download/nightly/ble-nightly.tar.xz && \
+      bash ble-nightly/ble.sh --install ~/.local/share
 
 RUN   GOBIN=/usr/bin go install -tags 'athena dynamodb godror' github.com/xo/usql@latest && \
       go clean -cache
